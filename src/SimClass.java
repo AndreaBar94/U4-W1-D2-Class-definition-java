@@ -1,10 +1,10 @@
 
 public class SimClass {
-	int number;
+	long number;
 	double credit;
-	String[] calls;
+	Object[] calls;
 	
-	public SimClass(int number, double credit) {
+	public SimClass(long number) {
 		this.number = number;
 		this.credit = 0;
 		this.calls = new String[5];
